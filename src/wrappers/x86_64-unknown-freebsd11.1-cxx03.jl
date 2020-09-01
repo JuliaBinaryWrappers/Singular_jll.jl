@@ -143,14 +143,18 @@ libsingular_resources_handle = C_NULL
 const libsingular_resources = "libsingular_resources-4.1.3.so"
 
 
+# Inform that the wrapper is available for this platform
+wrapper_available = true
+
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"Singular")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
-    # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
+    # Initialize PATH and LIBPATH environment variable listings
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
     foreach(p -> append!(PATH_list, p), (cddlib_jll.PATH_list, FLINT_jll.PATH_list, GMP_jll.PATH_list, MPFR_jll.PATH_list,))
@@ -163,14 +167,14 @@ function __init__()
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libfactory_handle = dlopen(libfactory_path)
+    global libfactory_handle = dlopen(libfactory_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libfactory_path))
 
     global libomalloc_path = normpath(joinpath(artifact_dir, libomalloc_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libomalloc_handle = dlopen(libomalloc_path)
+    global libomalloc_handle = dlopen(libomalloc_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libomalloc_path))
 
     global libparse_path = normpath(joinpath(artifact_dir, libparse_splitpath...))
@@ -180,21 +184,21 @@ function __init__()
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libpolys_handle = dlopen(libpolys_path)
+    global libpolys_handle = dlopen(libpolys_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libpolys_path))
 
     global libsingular_path = normpath(joinpath(artifact_dir, libsingular_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libsingular_handle = dlopen(libsingular_path)
+    global libsingular_handle = dlopen(libsingular_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libsingular_path))
 
     global libsingular_resources_path = normpath(joinpath(artifact_dir, libsingular_resources_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libsingular_resources_handle = dlopen(libsingular_resources_path)
+    global libsingular_resources_handle = dlopen(libsingular_resources_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libsingular_resources_path))
 
     # Filter out duplicate and empty entries in our PATH and LIBPATH entries
@@ -205,4 +209,3 @@ function __init__()
 
     
 end  # __init__()
-
