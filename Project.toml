@@ -1,6 +1,6 @@
 name = "Singular_jll"
 uuid = "43d676ae-4934-50ba-8046-7a96366d613b"
-version = "4.1.4+0"
+version = "401.390.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -15,3 +15,4 @@ FLINT_jll = "e134572f-a0d5-539d-bddf-3cad8db41a82"
 [compat]
 JLLWrappers = "1.1.0"
 julia = "1.0"
+FLINT_jll = "=200.690.0"
