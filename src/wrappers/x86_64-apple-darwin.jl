@@ -6,11 +6,11 @@ using FLINT_jll
 using GMP_jll
 using MPFR_jll
 JLLWrappers.@generate_wrapper_header("Singular")
-JLLWrappers.@declare_library_product(libfactory, "@rpath/libfactory-4.3.0.dylib")
+JLLWrappers.@declare_library_product(libfactory, "@rpath/libfactory-4.3.1.dylib")
 JLLWrappers.@declare_library_product(libomalloc, "@rpath/libomalloc-0.9.6.dylib")
-JLLWrappers.@declare_library_product(libpolys, "@rpath/libpolys-4.3.0.dylib")
-JLLWrappers.@declare_library_product(libsingular, "@rpath/libSingular-4.3.0.dylib")
-JLLWrappers.@declare_library_product(libsingular_resources, "@rpath/libsingular_resources-4.3.0.dylib")
+JLLWrappers.@declare_library_product(libpolys, "@rpath/libpolys-4.3.1.dylib")
+JLLWrappers.@declare_library_product(libsingular, "@rpath/libSingular-4.3.1.dylib")
+JLLWrappers.@declare_library_product(libsingular_resources, "@rpath/libsingular_resources-4.3.1.dylib")
 JLLWrappers.@declare_executable_product(Singular)
 JLLWrappers.@declare_executable_product(libparse)
 function __init__()
