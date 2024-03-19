@@ -1,6 +1,6 @@
 name = "Singular_jll"
 uuid = "43d676ae-4934-50ba-8046-7a96366d613b"
-version = "403.216.1601+0"
+version = "403.216.1602+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
