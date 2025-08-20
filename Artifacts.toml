@@ -1,280 +1,280 @@
 [[Singular]]
 arch = "aarch64"
-git-tree-sha1 = "6d4a6d809f651be1fa26ad417a111b82c660d27e"
+git-tree-sha1 = "c4ac99fe6300c31388a93d490be03202c3fa3fd1"
 os = "macos"
 
     [[Singular.download]]
-    sha256 = "e61213ab729979b252f3eee8083fc7340e608585a30580a2d9fb815f9c100588"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.aarch64-apple-darwin.tar.gz"
+    sha256 = "e008ec631e50bdc301d01a280d0fc8ea2df02cfbefe1e48b44660bc755fd4885"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.aarch64-apple-darwin.tar.gz"
 [[Singular]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "331cffe199e68721e60a3a828bd0996f4c7bce3e"
+git-tree-sha1 = "a9778d4961b740db86ee4510f7838399de9e536b"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "424461f45cd80a07220fe1076aa3cd3c399799dc02a5b5045146b32786f99949"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "c6d9fb307d0d5f28bbcce3d64aef23e78cf9b9cfbeed534a997fc4ea69ed4639"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.aarch64-linux-gnu-cxx03.tar.gz"
 [[Singular]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c496cf99e64dd7bb04fcdbebbaf289aae4b55259"
+git-tree-sha1 = "e116f119664695abfafee7bae629503a3306560c"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "339f49983b7079985da4695c6d5fb254280605579cdda452b32bb0f77f6b4bf4"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "ea4e4d22533ccd29d20b2c802abeebf8f9fa44e766451a9f0b0eb16749f31caa"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.aarch64-linux-gnu-cxx11.tar.gz"
 [[Singular]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef01da3d636aba8d85339992d12bab721c89d426"
+git-tree-sha1 = "993483d0255fc8f99f47f6024c034e3d221065f3"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "189958275108a6802ec9353365977c3f8c9536ce3d8a9d2f536ec797df6154c6"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "5db4905a254c691c1a2481f9488bdf6b541378eba48ecc719dc2b4eeaab604cc"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.aarch64-linux-musl-cxx03.tar.gz"
 [[Singular]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "58add2006222a2021e7ed2cb941b8efdc1f5a4c4"
+git-tree-sha1 = "2537c3a892489cbffe487aa98da6f1111d924ce7"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "f211d4b79d56c7fc3c871b9269f03600367001f3f0ee4fd23439ece120347731"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "ecb045826a6b263c00cfaa62e63506a96aabf362a63b23f5d9b4c4a802f6c26a"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.aarch64-linux-musl-cxx11.tar.gz"
 [[Singular]]
 arch = "aarch64"
-git-tree-sha1 = "754d82f133289638e45203bfd388d35e252e6f02"
+git-tree-sha1 = "02020e805b45d62e8bc74698737836eefcdb517a"
 os = "freebsd"
 
     [[Singular.download]]
-    sha256 = "a9b2d12b5659782011d768bf2d5b7c054e2b30cb0fa9dbc0c5e68d8ceacddd70"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "12510455d99c31b2f8b395e507993176664bd8c096b69a2a5e09cbf2e354318f"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.aarch64-unknown-freebsd.tar.gz"
 [[Singular]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "007e2bc15c76b92c3affe6285bf64e81f05b6f89"
+git-tree-sha1 = "3eec3a90cbef2a3055c2b0c8e9a231138e2ab834"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "a5c9aab8b42e17a8d0d13d504d51a8f62f6d3b151ef4a75141b33242c4d43c77"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "1f71b00f538fe80204e916fb1e28016bb23da37c7b05af69e780d4842dee0cb7"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[Singular]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fc2dce0a5ef10276691a0b79879ef8f43200701d"
+git-tree-sha1 = "4652eca80fffb4504340b3317637e15e01279d7a"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "ecd6c1fc5fc89d528f354e547a046563afabec053f6e395084215a780b2fd53e"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "ea6f0032bdd911536056d8942eef9286ce314e7819d0e56d7e6c8eff9d164c68"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[Singular]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "25717b3ae5cd0ae85474eb2dbff57e0cb9737e32"
+git-tree-sha1 = "6eec77488ec2d3646f117c65539ebae041db1417"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "c1eede922e94ce8ae7a917d44b187efe78f6b4103b0191f3350437cd64b8a3ad"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv6l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "25f00d32d3d006908ff514279f0c3609ed73993adef5ee0c95d864d060ce1650"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv6l-linux-musleabihf-cxx03.tar.gz"
 [[Singular]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2fa54becac7269f9f181f3a893fada0eba2eee33"
+git-tree-sha1 = "cd72cd937e10fa7d1e9f7bec6af29db64bbf3e4e"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "b25c513280b79975dc926554e1ade2092558ff11aff1f362dcf3e63a1a822d00"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "65ec1323be1019670ff1209bb6ac9af6126418a2dd064d39fe4edf8e50ad1f2d"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[Singular]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "bef6ff8180c6f5932ac2b70b5db991a5a28fc6e7"
+git-tree-sha1 = "06656fb0205ee3c1ba40c7ee518ea1a2866addb9"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "22a98dd6813c64d4108f0128d4c32dd8ddd243b9692bb9a3dff3b4f0b6048b55"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "e663e67d16036bade4353ded39282066ee189281bbdfb2699ede563b3ce62c32"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[Singular]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "105d070d8da9d27789aa5dc5fcb122c270436570"
+git-tree-sha1 = "b936bd607a176c75bc53f024cd34578b51b46e09"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "33a2e859b58081e789383d8ad6a1501e6907e9f1589082e53725ff4ef0872ccf"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "965deb66b29f229c41bd99b19f7f4b784dea822ee8828d4fdde4adcd0dcc764e"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[Singular]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9d64f35bfc64a46a3493f03cdc8e29d616d45e0a"
+git-tree-sha1 = "6b89e94677b8a188834c752ec3e15f1d43e29051"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "30709b8df6a0165a7542c513fa70674e1d5a12d405b42f8c574a3fad26f27a13"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "2b8488659df97852571195d515ab589a5b273baaaf34bb24a094181dc4a6bf8c"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[Singular]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "95113065df9cd52dcb7e4ef92ead2af8c0a3a54e"
+git-tree-sha1 = "d6d7617a3bdfdb3389cf3f52aadddd64f547f331"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "d8cc1edbf2d0cf140d5fffe47161e4a7e3617529f5b324707163d0569da3f615"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "3a79df56bdd89fabbb98aa6094e2f1a9bf1d1130158a0234f6b83ed03c730ef1"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[Singular]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "989471911dda1ea40e08d72354693d785b230afc"
+git-tree-sha1 = "f6e7476d937cadd76d3acefabc8474ae1bad19d2"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "f58d4024d504f960c6b6be8a258b782091bcbcf696f76d3494eda608465a74b2"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "e3439c64096feb580dbe9463f767b857f65e6f3da09e079dd76da6dca5b1a1cf"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.i686-linux-gnu-cxx03.tar.gz"
 [[Singular]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bd5d7f947c4f1cc6dc47068876156e83bf0ed62b"
+git-tree-sha1 = "1f3ac7a5ee34df716c8ac08719eb50307e0339bb"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "68c285f0d2778f07b1f660c16b004066ca8d261d68898270562829b19e51b9ab"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "de51c572e3106f549312298ac42b9ab7d3004dacc1f1ee92552bc437739253b1"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.i686-linux-gnu-cxx11.tar.gz"
 [[Singular]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ec6d515098c9c9e537232ab1517bdbb7989d70d3"
+git-tree-sha1 = "ce2965f63050d87389ac9989190fbe01000cc057"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "02fb96ac77f9e109a489ce5a6e8b7caa709fa9f3228e73e219aabfe0326d4b03"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "03a19f347110af6958ec3bd277bdb3f8baaa3dc7cbf8d44220db7c8056299a19"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.i686-linux-musl-cxx03.tar.gz"
 [[Singular]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b0322ffb39380bce3bd32a2d29af6901b56db115"
+git-tree-sha1 = "2448b8932d916c32668e5c8ca5957f176e7c6166"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "5fcfb8ec505a70a0c37e7ee582aa61d31d42e0823a80c382ece20353029cf129"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "c60f4855451ead67a93b44c1c78fc4962eeb02ce1a814b11b7d8395981b93073"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.i686-linux-musl-cxx11.tar.gz"
 [[Singular]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a2877bd4b9d1a3b3d655cc4ff1bca7a32723303c"
+git-tree-sha1 = "aa08a0dca2e1e13aca09c55f21b173cd11360108"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "c39f1c6e92637875b5d24034594349912138a00f874d09fd3abee07b41de6899"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "b9b493d3ac7665f3a16af661da2cd46935195abf94556ed52b0c785d12610ed6"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[Singular]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a513e00bdb73c32bc9ddcd04e1a79d03925166b6"
+git-tree-sha1 = "08619f69b201c91f06201f19fdc2d44147752ecd"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "b8953b51059f5aef38c9b6c1fd6ed04182539db6a9bb07e28c9a5582bbc2e18e"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "edab20071f25b8455fc96ab6fdb2c768891da69c95131234e90b69ffcca07ebe"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Singular]]
 arch = "riscv64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "19ef46414afeeb1f131812fcab5c65d605660576"
+git-tree-sha1 = "7b78e6e28fb528ef6aa8540db6c3fc8b5be1a3fc"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "29386e08d1cfd8e527a610ddff07148c72c335385c546e77e79d5542679487bd"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.riscv64-linux-gnu-cxx03.tar.gz"
+    sha256 = "90ea8785df7bdb0a11c015f532a945cb4fbf79b78b198fbdd1fcd0bd9a6a6773"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.riscv64-linux-gnu-cxx03.tar.gz"
 [[Singular]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "888e32bbd20f789a246427297277096656dbaa8d"
+git-tree-sha1 = "a02315bb7f143897f2c3a300a8acd99ee6eb301f"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "7d5a1786b97f4abc0c6119c2c7086c5f484f5b5a29a39bd39ddff971f64894f2"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.riscv64-linux-gnu-cxx11.tar.gz"
+    sha256 = "212edae472e560a7c8a3c2b575b1483952267e2c1539689de96d491ec1bab99e"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.riscv64-linux-gnu-cxx11.tar.gz"
 [[Singular]]
 arch = "x86_64"
-git-tree-sha1 = "76325c9c3c29fcab8e81b66e8137a1f46bdbf9d1"
+git-tree-sha1 = "e66b5c5de4ab86dee46c76e2c61738aa05dbb7f7"
 os = "macos"
 
     [[Singular.download]]
-    sha256 = "d410c12f4734161d3947aa2b7d451e16802eac7cb173c22c2bd67442dade8753"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.x86_64-apple-darwin.tar.gz"
+    sha256 = "798b83c0a27bee8e68c1ff7b14641e6879e3bdcce7e3097896b2150ef8b49eeb"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.x86_64-apple-darwin.tar.gz"
 [[Singular]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5e39df86e38dcab3bac3663a90fe1955212eeda6"
+git-tree-sha1 = "9c7049091d15aceffe9af88c1c377b08c029bda6"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "10c54fbb6d8cd99cbc17ef10f77a4274d1868440cd9c436068d5432dea899d88"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "fecaef91f4a61934699eef45fbdd804d2c197e4b4644926711cc73975de90599"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.x86_64-linux-gnu-cxx03.tar.gz"
 [[Singular]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1bf8cd7131bfe3a4c4e2e5de1a0672851bbf2442"
+git-tree-sha1 = "be995df069af687a54983db6509330b199e5471d"
 libc = "glibc"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "9bf03367be2e47a613c823c2645f78aad218dbdfa43bc082c7aea2dcf89eb5f9"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "c58a9cb93bf50af1988fadedaa6f928b1e365f90d6513c193ee8ef8763f3f6cb"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.x86_64-linux-gnu-cxx11.tar.gz"
 [[Singular]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d6bb0f615606f8e7f0d64e61f304e7100756832f"
+git-tree-sha1 = "4f26ce33f2e47fb2c4dd8b6dbd4b5f02d6c30cfc"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "fd3cddecea59c90bf021565416a905e812d1b20e5fa1e4d9eb391cc9faa2cc25"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "b2e71fd32febeea4f4d11921305cc03886245fda73535bf9660d87726504e0dd"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.x86_64-linux-musl-cxx03.tar.gz"
 [[Singular]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5e81526c6380120a9108ff92d56e339b569a3221"
+git-tree-sha1 = "4c7fab4ec9c5124891ec1f48ab2581d01b621b65"
 libc = "musl"
 os = "linux"
 
     [[Singular.download]]
-    sha256 = "a8b2137cf7e44885803c64831479042b37ab80e35c841418f0cb0102e0720ccf"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "dc1a4f695d053c4108f44d6cb02d698a2a6ea0a7ab2cf4585833f6425dfdcabf"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.x86_64-linux-musl-cxx11.tar.gz"
 [[Singular]]
 arch = "x86_64"
-git-tree-sha1 = "e9b7762e252df9aa7e0601557950e7d85f74b6bd"
+git-tree-sha1 = "9804df46810b5d1b8cd5f3bb566f484a5f0c30b7"
 os = "freebsd"
 
     [[Singular.download]]
-    sha256 = "6fe673d25d3af0a50bd523ab613dae400224ffa784a03fe5fea59be790ff4245"
-    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.300+0/Singular.v404.101.300.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "e4a07f5ab260ef7c372a0fd9c533b87ce36870ca10b24a3a064758c3ca12a6cf"
+    url = "https://github.com/JuliaBinaryWrappers/Singular_jll.jl/releases/download/Singular-v404.101.301+0/Singular.v404.101.301.x86_64-unknown-freebsd.tar.gz"
