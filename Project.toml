@@ -1,4 +1,4 @@
-version = "404.101.511+0"
+version = "404.101.512+0"
 name = "Singular_jll"
 uuid = "43d676ae-4934-50ba-8046-7a96366d613b"
 
@@ -12,8 +12,11 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
 
 [compat]
+MPFR_jll = "4.1.1"
 Libdl = "< 0.0.1, 1"
 julia = "1.10"
 JLLWrappers = "1.7.0"
+cddlib_jll = "0.94.15"
 Artifacts = "< 0.0.1, 1"
 FLINT_jll = "~301.600.000"
+GMP_jll = "6.2.1"
